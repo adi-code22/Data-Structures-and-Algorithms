@@ -12,7 +12,7 @@ void addEdge(vector<int> x[], int u, int v){
 int main(){
     int n;
     cin>>n;
-    vector<int> ar[n + 1];
+    vector<int> ar[n+1];
     addEdge(ar, 1, 2);
     addEdge(ar, 2, 3);
     addEdge(ar, 3, 1);
